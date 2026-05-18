@@ -351,7 +351,7 @@
 <div class="hero">
   <span class="hero-tag">AI Assistant by Ishtiaq</span>
   <h1>Ask me <em>anything</em></h1>
-  <p class="hero-sub">A free AI assistant built by Ishtiaq — an ambitious AI student from Faisalabad, Pakistan. Powered by Groq + LLaMA 3.</p>
+  <p class="hero-sub">A free AI assistant built by Ishtiaq — an ambitious AI student from Faisalabad, Pakistan. Powered by Groq
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">Free</div><div class="stat-label">No cost ever</div></div>
     <div class="stat"><div class="stat-num">Fast</div><div class="stat-label">Groq powered</div></div>
@@ -447,7 +447,7 @@ To activate me, get your free API key from console.groq.com/keys and paste it in
       </div>
       <div class="feat-card">
         <div class="feat-icon">🧠</div>
-        <div class="feat-title">Powered by LLaMA 3</div>
+        <div class="feat-title">Powered by 
         <div class="feat-desc">Meta's powerful open source model — the same technology behind some of the world's best AI assistants.</div>
       </div>
       <div class="feat-card">
@@ -511,7 +511,7 @@ To activate me, get your free API key from console.groq.com/keys and paste it in
   function clearChat() {
     history = [];
     messagesEl.innerHTML = '';
-    addMessage('bot', 'Chat cleared! Ask me anything. 😊');
+    addMessage('ishtiaq', 'Chat cleared! Ask me anything. 😊');
   }
 
   function addMessage(role, text) {
@@ -519,7 +519,7 @@ To activate me, get your free API key from console.groq.com/keys and paste it in
     div.className = 'msg ' + role;
     const av = document.createElement('div');
     av.className = 'msg-av';
-    av.textContent = role === 'bot' ? '🤖' : 'You';
+    av.textContent = role === 'ishtiaq' ? '🤖' : 'You';
     const bubble = document.createElement('div');
     bubble.className = 'bubble';
     bubble.textContent = text;
@@ -591,7 +591,7 @@ To activate me, get your free API key from console.groq.com/keys and paste it in
       }
     } catch(e) {
       removeTyping();
-      addMessage('bot', '⚠️ Connection error. Please make sure:\n1. Your API key is correct\n2. You have internet connection\n\nGet a free key at console.groq.com/keys');
+      addMessage
       history.pop();
     }
 
