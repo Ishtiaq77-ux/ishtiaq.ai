@@ -611,3 +611,10 @@ To activate me, get your free API key from console.groq.com/keys and paste it in
 
 </body>
 </html>
+import os
+import openai
+
+client = openai.OpenAI(
+    base_url="https://api.groq.com/openai/v1",
+    api_key=os.environ.get("GROQ_API_KEY")
+)
