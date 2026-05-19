@@ -87,13 +87,13 @@
     <span class="label">tap to visit</span>
     <a
       class="btn"
-      href="https://gemini-chat-pro-613594729885.asia-southeast1.run.app"
+      href="https://ishtiaq-chatbot-613594729885.asia-southeast1.run.app"
       target="_blank"
       rel="noopener noreferrer"
     >
       Click Here<span class="arrow">↗</span>
     </a>
-    <span class="hint">gemini-chat-pro-613594729885.asia-southeast1.run.app</span>
+    <span class="hint">ishtiaq-chatbot-613594729885.asia-southeast1.run.app</span>
   </div>
 </body>
 </html>
